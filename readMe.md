@@ -8,11 +8,11 @@ A: It is important to take the time to create a high quality README for your Git
 
 ## Installation Instructions 
 ***Q: How do you install README Generator?*** <br>
-A: Installation is easy! Go ahead and clone the repository to your local device. From there, navigate to the local directory from your command line interface, run "npm install" to gather to necessary dependencies, and finally, run the command "node index.js". That said, you will require node.js in order to run this software. <br>
+A: Installation is easy! Go ahead and clone the repository to your local device. From there, navigate to the local directory from your command line interface, run "npm install" to gather to necessary dependencies, and finally, run the command "node index.js". That said, you will require node.js in order to run this software.<br>
 
 ## Usage
 ***Q: What is the intended use of this README Generator?*** <br>
-A: README Generator is intended to be used for convenience.<br>
+A: README Generator is intended to be used for convenience and consistency<br>
 
 ## Contributions
 ***Q: How can developers contribute to README Generator?*** <br>

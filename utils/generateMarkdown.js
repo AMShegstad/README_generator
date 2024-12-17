@@ -148,7 +148,7 @@ function renderLicenseSection(license) {
   // Using a template literal to create this section.
   const licenseSection = `
 ## License
-***Q: What about Licensing***
+***Q: What about Licensing*** <br>
 A: This software is available for user under the ${license} license. If you'd like more information about the ${license} license, you can click the following link for more information:
 [${license}](${licenseLink})
 `
