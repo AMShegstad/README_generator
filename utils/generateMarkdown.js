@@ -174,7 +174,7 @@ A: ${data.installationInstructions}<br>
 A: ${data.usage}<br>
 
 ## Q: How can developers contribute to ${data.title}?<br>
-A: ${data.contribution}<br>
+A: ${data.contributing}<br>
 
 ## Q: Test Instructions:<br>
 A: ${data.tests}<br>
