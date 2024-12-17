@@ -1,5 +1,5 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 # README Generator 
 
 ## Description
@@ -16,7 +16,7 @@ A: README Generator is intended to be used for convenience.<br>
 
 ## Contributions
 ***Q: How can developers contribute to README Generator?*** <br>
-A: Developers can contribute to the README Generator by creating their own branch and submitting a pull request. Add issues via the repository, and offer feedback if you have any, but try and keep it friendly! We're all in this together!<br>
+A: Developers can contribute to the README Generator by creating their own branch and submitting a pull request. Add issues via the repository, and offer feedback via the email address at the bottom of the README document if you have any, but try and keep it friendly! We're all in this together!<br>
 
 ## Testing 
 ***Q: Test Instructions:<br>***
@@ -24,8 +24,14 @@ A: Testing is best done through usage. If you find any bugs, submit an issue at 
 
 
 ## License
-***What about Licensing***
-This software is available for user under the MIT license. If you'd like more information about the MIT license, you can click the following link for more information:
-[MIT](https://opensource.org/licenses/MIT)
+***Q: What about Licensing***
+A: This software is available for user under the The Unlicense license. If you'd like more information about the The Unlicense license, you can click the following link for more information:
+[The Unlicense](http://unlicense.org/)
+
+
+## Questions?
+***GitHub:*** Visit [my GitHub page](https://www.github.com/AMShegstad) for more of my work!<br>
+***Email:*** you can reach me at aShegstad@my365.Bellevue.edu with further questions or comments.
+
 
 (This README created using README Generator! I know, cool, right?!)

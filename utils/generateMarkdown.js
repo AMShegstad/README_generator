@@ -148,8 +148,8 @@ function renderLicenseSection(license) {
   // Using a template literal to create this section.
   const licenseSection = `
 ## License
-***What about Licensing***
-This software is available for user under the ${license} license. If you'd like more information about the ${license} license, you can click the following link for more information:
+***Q: What about Licensing***
+A: This software is available for user under the ${license} license. If you'd like more information about the ${license} license, you can click the following link for more information:
 [${license}](${licenseLink})
 `
 
@@ -186,6 +186,12 @@ A: ${data.contributing}<br>
 A: ${data.tests}<br>
 
 ${`${renderLicenseSection(data.license)}`}
+
+## Questions?
+***GitHub:*** Visit [my GitHub page](https://www.github.com/${data.githubUserName}) for more of my work!<br>
+***Email:*** you can reach me at ${data.emailAddress} with further questions or comments.
+
+
 (This README created using README Generator! I know, cool, right?!)
 ` 
 return readMeContent;

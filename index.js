@@ -5,12 +5,14 @@ import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
-    'What is your project called? ', 
-    'Provide a description of the project? ',
+    'Please provide your GitHub username: ',
+    'Please provide your email address: ',
+    'Please provide a title for your project: ', 
+    'Please provide a description of the project: ',
     'Please provide installation instructions for the project: ',
-    'What is the intended use of this project? ',
+    'Please provide usage guidelines for the project: ',
     'How can developers contribute to your project? ',
-    'Provide Test instructions: ',
+    'Please provide Test instructions: ',
     "Which type of license comes with your software? "
 ];
 
@@ -26,38 +28,47 @@ function init() {
     .prompt([
         {
             type: 'input',
-            name: 'title',
+            name: 'githubUserName',
             message: questions[0]
-        },
-        {
+        },{
             type: 'input',
-            name: 'description',
+            name: 'emailAddress',
             message: questions[1]
         },
         {
             type: 'input',
-            name: 'installationInstructions',
+            name: 'title',
             message: questions[2]
         },
         {
             type: 'input',
-            name: 'usage',
+            name: 'description',
             message: questions[3]
         },
         {
             type: 'input',
-            name: 'contributing',
+            name: 'installationInstructions',
             message: questions[4]
         },
         {
             type: 'input',
-            name: 'tests',
+            name: 'usage',
             message: questions[5]
+        },
+        {
+            type: 'input',
+            name: 'contributing',
+            message: questions[6]
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: questions[7]
         },
         {
             type: 'list',
             name: 'license',
-            message: questions[6],
+            message: questions[8],
             // Choices were gleaned from the options found in GitHubs' Docs.
             // https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
             choices: [
@@ -82,7 +93,7 @@ function init() {
         }
     ])
     .then((promise => {
-
+        // Easy Peasy with all of the logic done in generateMarkdown.js
        writeToFile('readMe.md', generateMarkdown(promise));
     })
 )};
