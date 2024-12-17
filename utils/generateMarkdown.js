@@ -147,8 +147,9 @@ function renderLicenseSection(license) {
   renderLicenseLink(license)
   // Using a template literal to create this section.
   const licenseSection = `
-## What about Licensing
-### This software is available for user under the ${license} license. If you'd like more information about the ${license} license, you can click the following link for more information:
+## License
+***What about Licensing***
+This software is available for user under the ${license} license. If you'd like more information about the ${license} license, you can click the following link for more information:
 [${license}](${licenseLink})
 `
 
@@ -164,22 +165,28 @@ function generateMarkdown(data) {
 ${licenseBadge}
 # ${data.title} 
 
-## Q: What is ${data.title}, you ask? <br>
+## Description
+***Q: What is ${data.title}, you ask?*** <br>
 A: ${data.description} <br>
 
-## Q: How do you install ${data.title}?<br>
+## Installation Instructions 
+***Q: How do you install ${data.title}?*** <br>
 A: ${data.installationInstructions}<br>
 
-## Q: What is the intended use of this ${data.title}?<br>
+## Usage
+***Q: What is the intended use of this ${data.title}?*** <br>
 A: ${data.usage}<br>
 
-## Q: How can developers contribute to ${data.title}?<br>
+## Contributions
+***Q: How can developers contribute to ${data.title}?*** <br>
 A: ${data.contributing}<br>
 
-## Q: Test Instructions:<br>
+## Testing 
+***Q: Test Instructions:<br>***
 A: ${data.tests}<br>
 
 ${`${renderLicenseSection(data.license)}`}
+(This README created using README Generator! I know, cool, right?!)
 ` 
 return readMeContent;
 }
